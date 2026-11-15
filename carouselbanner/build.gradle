@@ -23,7 +23,7 @@ dependencies {
     implementation dependent.kotlinJdk7
     compileOnly dependent.appcompat
     compileOnly dependent.recyclerview
-    compileOnly dependent.cardview
+    implementation dependent.cardview
 }
 
 apply plugin: 'maven-publish'
