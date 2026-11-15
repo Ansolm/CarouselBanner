@@ -2,6 +2,9 @@ apply from: './../config.gradle'
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 android {
+    publishing {
+        singleVariant('release')
+    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
@@ -21,4 +24,19 @@ dependencies {
     compileOnly dependent.appcompat
     compileOnly dependent.recyclerview
     compileOnly dependent.cardview
+}
+
+apply plugin: 'maven-publish'
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                groupId = 'com.github.ansolm'
+                artifactId = 'carouselbanner'
+                version = '1.0.1'
+                from components.release
+            }
+        }
+    }
 }
