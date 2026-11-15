@@ -1,12 +1,12 @@
-package com.iwdael.carouselbanner.layoutmanager;
+package com.ansolm.carouselbanner.layoutmanager;
 
 
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 public class CenterScrollListener extends RecyclerView.OnScrollListener {

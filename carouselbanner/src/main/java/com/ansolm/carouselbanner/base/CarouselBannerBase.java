@@ -1,4 +1,4 @@
-package com.iwdael.carouselbanner.base;
+package com.ansolm.carouselbanner.base;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -24,17 +24,17 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.PagerSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.iwdael.carouselbanner.R;
-import com.iwdael.carouselbanner.interfaces.OnCarouselItemChangeListener;
-import com.iwdael.carouselbanner.interfaces.OnCarouselItemClickListener;
+import com.ansolm.carouselbanner.R;
+import com.ansolm.carouselbanner.interfaces.OnCarouselItemChangeListener;
+import com.ansolm.carouselbanner.interfaces.OnCarouselItemClickListener;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 public abstract class CarouselBannerBase<L extends RecyclerView.LayoutManager, A extends BaseBannerAdapter> extends FrameLayout {
@@ -350,9 +350,9 @@ public abstract class CarouselBannerBase<L extends RecyclerView.LayoutManager, A
 
 
     /**
-     * author  : Iwdael
-     * e-mail  : iwdael@outlook.com
-     * github  : http://github.com/iwdael
+     * author  : Ansolm
+     * e-mail  : ansolm@outlook.com
+     * github  : http://github.com/ansolm
      * project : CarouselBanner
      */
     protected void refreshIndicator() {
@@ -370,9 +370,9 @@ public abstract class CarouselBannerBase<L extends RecyclerView.LayoutManager, A
     }
 
     /**
-     * author  : Iwdael
-     * e-mail  : iwdael@outlook.com
-     * github  : http://github.com/iwdael
+     * author  : Ansolm
+     * e-mail  : ansolm@outlook.com
+     * github  : http://github.com/ansolm
      * project : CarouselBanner
      */
     protected int getColor(@ColorRes int color) {

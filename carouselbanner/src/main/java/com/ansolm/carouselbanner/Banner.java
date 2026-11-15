@@ -1,6 +1,6 @@
-package com.iwdael.carouselbanner;
+package com.ansolm.carouselbanner;
 
-import com.iwdael.carouselbanner.interfaces.CarouselImageFactory;
+import com.ansolm.carouselbanner.interfaces.CarouselImageFactory;
 
 public class Banner {
     public static volatile Banner sBanner;

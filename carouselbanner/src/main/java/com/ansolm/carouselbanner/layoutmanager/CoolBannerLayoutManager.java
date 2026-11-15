@@ -1,4 +1,4 @@
-package com.iwdael.carouselbanner.layoutmanager;
+package com.ansolm.carouselbanner.layoutmanager;
 
 import android.content.Context;
 import android.graphics.PointF;
@@ -14,9 +14,9 @@ import static androidx.recyclerview.widget.RecyclerView.NO_POSITION;
 
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 public class CoolBannerLayoutManager extends RecyclerView.LayoutManager implements RecyclerView.SmoothScroller.ScrollVectorProvider {
@@ -474,9 +474,9 @@ public class CoolBannerLayoutManager extends RecyclerView.LayoutManager implemen
     }
 
     /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
     private float maxRemoveOffset() {
@@ -484,9 +484,9 @@ public class CoolBannerLayoutManager extends RecyclerView.LayoutManager implemen
     }
 
     /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
     private float minRemoveOffset() {
@@ -515,9 +515,9 @@ public class CoolBannerLayoutManager extends RecyclerView.LayoutManager implemen
     }
 
     /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
     private float getOffsetOfRightAdapterPosition() {
@@ -529,9 +529,9 @@ public class CoolBannerLayoutManager extends RecyclerView.LayoutManager implemen
     }
 
     /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
     public int getOffsetToCenter() {

@@ -1,4 +1,4 @@
-package com.iwdael.carouselbanner.viewholder;
+package com.ansolm.carouselbanner.viewholder;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -6,12 +6,12 @@ import android.widget.ImageView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.iwdael.carouselbanner.base.BaseViewHolder;
+import com.ansolm.carouselbanner.base.BaseViewHolder;
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 

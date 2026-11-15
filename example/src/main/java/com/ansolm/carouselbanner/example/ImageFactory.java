@@ -1,9 +1,9 @@
-package com.iwdael.carouselbanner.example;
+package com.ansolm.carouselbanner.example;
 
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.iwdael.carouselbanner.interfaces.CarouselImageFactory;
+import com.ansolm.carouselbanner.interfaces.CarouselImageFactory;
 
 public class ImageFactory implements CarouselImageFactory {
     @Override

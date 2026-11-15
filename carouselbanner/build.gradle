@@ -1,13 +1,16 @@
 apply from: './../config.gradle'
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 android {
-    buildToolsVersion buidConfig.buildToolsVersion
-    compileSdkVersion buidConfig.compileSdkVersion
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    namespace 'com.ansolm.carouselbanner'
+    compileSdk = 37
     defaultConfig {
-        minSdkVersion buidConfig.minSdkVersion
-        targetSdkVersion buidConfig.targetSdkVersion
+        minSdk = 21
+        targetSdk = 37
         versionCode buidConfig.versionCode
         versionName buidConfig.versionName
     }

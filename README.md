@@ -1,7 +1,7 @@
 # CarouselBanner
 ![](https://img.shields.io/badge/platform-android-orange.svg)
 ![](https://img.shields.io/badge/language-java-yellow.svg)
-![](https://jitpack.io/v/com.iwdael/carouselbanner.svg)
+![](https://jitpack.io/v/com.ansolm/carouselbanner.svg)
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![](https://img.shields.io/badge/license-apache--2.0-green.svg)
 ![](https://img.shields.io/badge/api-19+-green.svg)
@@ -32,8 +32,8 @@ Banner.init(new ImageFactory());
 ```
 #### 添加到布局
 ```
-    <!--<com.iwdael.carouselbanner.CarouselBanner-->
-    <com.iwdael.carouselbanner.CoolCarouselBanner
+    <!--<com.ansolm.carouselbanner.CarouselBanner-->
+    <com.ansolm.carouselbanner.CoolCarouselBanner
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -58,7 +58,7 @@ Banner.init(new ImageFactory());
 ```Java
 	dependencies {
                 ...
-	        implementation 'com.iwdael:carouselbanner:$version'
+	        implementation 'com.ansolm:carouselbanner:$version'
 	}
 ```
 

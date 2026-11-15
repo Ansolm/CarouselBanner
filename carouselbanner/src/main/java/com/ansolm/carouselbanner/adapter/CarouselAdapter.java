@@ -1,18 +1,18 @@
-package com.iwdael.carouselbanner.adapter;
+package com.ansolm.carouselbanner.adapter;
 
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.iwdael.carouselbanner.base.BaseBannerAdapter;
-import com.iwdael.carouselbanner.interfaces.OnCarouselItemClickListener;
-import com.iwdael.carouselbanner.viewholder.CarouselViewHolder;
+import com.ansolm.carouselbanner.base.BaseBannerAdapter;
+import com.ansolm.carouselbanner.interfaces.OnCarouselItemClickListener;
+import com.ansolm.carouselbanner.viewholder.CarouselViewHolder;
 
 import java.util.List;
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 public class CarouselAdapter extends BaseBannerAdapter<CarouselViewHolder> {

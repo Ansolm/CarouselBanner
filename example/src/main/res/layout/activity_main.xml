@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
 
-    <com.iwdael.carouselbanner.CoolCarouselBanner
+    <com.ansolm.carouselbanner.CoolCarouselBanner
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -18,7 +18,7 @@
         app:speedPerPixelMillisecond="0.8" />
 
 
-    <com.iwdael.carouselbanner.CoolCarouselBanner
+    <com.ansolm.carouselbanner.CoolCarouselBanner
         android:id="@+id/banner2"
         android:layout_width="match_parent"
         android:layout_height="200dp"

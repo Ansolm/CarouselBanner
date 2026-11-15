@@ -1,11 +1,11 @@
-package com.iwdael.carouselbanner.interfaces;
+package com.ansolm.carouselbanner.interfaces;
 
 import android.widget.ImageView;
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 

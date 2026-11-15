@@ -1,16 +1,16 @@
-package com.iwdael.carouselbanner.base;
+package com.ansolm.carouselbanner.base;
 
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.iwdael.carouselbanner.interfaces.OnCarouselItemClickListener;
+import com.ansolm.carouselbanner.interfaces.OnCarouselItemClickListener;
 
 import java.util.List;
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 public abstract class BaseBannerAdapter<VH extends BaseViewHolder> extends RecyclerView.Adapter<VH> {

@@ -1,21 +1,21 @@
-package com.iwdael.carouselbanner;
+package com.ansolm.carouselbanner;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.iwdael.carouselbanner.adapter.CoolCarouselAdapter;
-import com.iwdael.carouselbanner.base.CarouselBannerBase;
-import com.iwdael.carouselbanner.interfaces.OnCarouselItemClickListener;
-import com.iwdael.carouselbanner.layoutmanager.CoolBannerLayoutManager;
+import com.ansolm.carouselbanner.adapter.CoolCarouselAdapter;
+import com.ansolm.carouselbanner.base.CarouselBannerBase;
+import com.ansolm.carouselbanner.interfaces.OnCarouselItemClickListener;
+import com.ansolm.carouselbanner.layoutmanager.CoolBannerLayoutManager;
 
 import java.util.List;
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 public class CoolCarouselBanner extends CarouselBannerBase<CoolBannerLayoutManager, CoolCarouselAdapter> {

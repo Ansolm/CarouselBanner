@@ -1,19 +1,19 @@
-package com.iwdael.carouselbanner.adapter;
+package com.ansolm.carouselbanner.adapter;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import com.iwdael.carouselbanner.R;
-import com.iwdael.carouselbanner.base.BaseBannerAdapter;
-import com.iwdael.carouselbanner.interfaces.OnCarouselItemClickListener;
-import com.iwdael.carouselbanner.viewholder.CoolCarouselViewHolder;
+import com.ansolm.carouselbanner.R;
+import com.ansolm.carouselbanner.base.BaseBannerAdapter;
+import com.ansolm.carouselbanner.interfaces.OnCarouselItemClickListener;
+import com.ansolm.carouselbanner.viewholder.CoolCarouselViewHolder;
 
 import java.util.List;
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 public class CoolCarouselAdapter extends BaseBannerAdapter<CoolCarouselViewHolder> {

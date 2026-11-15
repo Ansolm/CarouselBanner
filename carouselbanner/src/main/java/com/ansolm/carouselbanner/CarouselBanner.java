@@ -1,4 +1,4 @@
-package com.iwdael.carouselbanner;
+package com.ansolm.carouselbanner;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -6,17 +6,17 @@ import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.iwdael.carouselbanner.adapter.CarouselAdapter;
-import com.iwdael.carouselbanner.base.CarouselBannerBase;
-import com.iwdael.carouselbanner.interfaces.OnCarouselItemClickListener;
-import com.iwdael.carouselbanner.layoutmanager.BannerLayoutManager;
+import com.ansolm.carouselbanner.adapter.CarouselAdapter;
+import com.ansolm.carouselbanner.base.CarouselBannerBase;
+import com.ansolm.carouselbanner.interfaces.OnCarouselItemClickListener;
+import com.ansolm.carouselbanner.layoutmanager.BannerLayoutManager;
 
 import java.util.List;
 
 /**
- * author  : Iwdael
- * e-mail  : iwdael@outlook.com
- * github  : http://github.com/iwdael
+ * author  : Ansolm
+ * e-mail  : ansolm@outlook.com
+ * github  : http://github.com/ansolm
  * project : CarouselBanner
  */
 public class CarouselBanner extends CarouselBannerBase<BannerLayoutManager, CarouselAdapter> {
